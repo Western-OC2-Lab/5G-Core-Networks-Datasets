@@ -1,6 +1,27 @@
 # 5G-Core-Networks-Datasets
 
-This repository contains the 5G Core Network datasets collected during packet capturing. Dataset1.pcapng captures initial UE registration with the 5G Core and 138 minutes of all other operations in the network. It can be opened using Wireshark or other packet dissection software.
+This repository contains the 5G Core Network datasets collected during packet capturing. Dataset1.pcapng captures initial UE registration with the 5G Core and 138 minutes of all other operations in the network. It can be opened using Wireshark or other packet dissection software. Dataset2.csv displays a selection of data fields per packet, including the following:
+
+### No.
+The sequence number of the packet during the collection phase.
+
+### Time
+The local emulation time appended to each packet when it was collected.
+
+### Source
+The source IP address, or the packet sender (see Network Topology section).
+
+### Destination
+The destination IP address, or the packet receiver (see Network Topology section).
+
+### Protocol
+The protocol of communication, or the communication scheme, that the packet is a part of.
+
+### Length
+The length of the packet, measured in bytes.
+
+### Info
+The information, or packet metadata, about the packet's transmission and any contained data.
 
 ## Network Topology
 
